@@ -1,0 +1,21 @@
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+html,
+body {
+    position: relative;
+    overflow: auto;
+}
+
+body {
+    background: $gray-50;
+    font-family: $typeface;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
