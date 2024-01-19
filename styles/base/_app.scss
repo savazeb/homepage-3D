@@ -9,13 +9,18 @@ li {
 html,
 body {
     position: relative;
-    overflow: auto;
+    overflow: hidden;
+    user-select: none;
 }
 
 body {
-    background: $gray-50;
+    background: $gray-100;
     font-family: $typeface;
     font-size: 14px;
-    color: #000;
     margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

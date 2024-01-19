@@ -1,12 +1,13 @@
 "use client";
 
-import Spline, { SplineProps } from "@splinetool/react-spline";
 
-const Spline3D = (props: SplineProps) => {
+import { Spline3DProps } from "@/interfaces/props";
+import Spline from "@splinetool/react-spline";
+
+const Spline3D: React.FunctionComponent<Spline3DProps> = ({ className, ...props }) => {
   return (
-    <div className='model-container'>
-      <Spline
-        scene={props.scene} />
+    <div className={className}>
+      <Spline {...props} />
     </div>
   );
 };
