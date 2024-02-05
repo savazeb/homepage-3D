@@ -4,7 +4,7 @@ const Page = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center" }}>
       <div style={{ position: "fixed", width: "100%", display: "flex", justifyContent: "", alignItems: "center", left: "20px", top: "20px" }}>
-        <img src="Sava Zeb.svg" width={70} />
+        <img src="https://raw.githubusercontent.com/savazeb/savazeb/master/assets/savazeb-logo(typeface).svg" width={70} />
       </div>
       <div className='title-container'>
         <div className='horizontal-scrolling-items'>
